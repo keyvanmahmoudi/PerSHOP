@@ -7,7 +7,7 @@ annotated with domain, intent/dialogue act and slot spans, together with the
 
 * Paper (IEEE, IICAI 2026): https://doi.org/10.1109/IICAI70155.2026.11620935
 * Preprint: https://arxiv.org/abs/2401.00811
-* Hugging Face: https://huggingface.co/datasets/keyvanmahmoudi/PerSHOP
+* Hugging Face: https://huggingface.co/datasets/KeyvanMahmoudi/PerSHOP
 
 ## Repository contents
 
@@ -43,7 +43,7 @@ python scripts/make_splits.py --dialogues PerSHOP.xlsx --products Products_DataB
 The release fixes 13 unparseable slot annotations, removes 2 empty utterances
 and renames the slot `super-product` to `super_product`; every change is listed
 in `scripts/corrections.json`. Field descriptions are documented in the
-[dataset card on Hugging Face](https://huggingface.co/datasets/keyvanmahmoudi/PerSHOP).
+[dataset card on Hugging Face](https://huggingface.co/datasets/KeyvanMahmoudi/PerSHOP).
 
 ## Collection
 

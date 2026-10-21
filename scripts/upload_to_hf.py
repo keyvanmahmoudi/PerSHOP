@@ -5,7 +5,7 @@ Before running:
     hf auth login            # paste a token with "write" access
 
 Then, from the release folder:
-    python scripts/upload_to_hf.py --repo keyvanmahmoudi/PerSHOP
+    python scripts/upload_to_hf.py --repo KeyvanMahmoudi/PerSHOP
 """
 
 import argparse
@@ -16,7 +16,7 @@ from huggingface_hub import HfApi
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--repo", default="keyvanmahmoudi/PerSHOP")
+    parser.add_argument("--repo", default="KeyvanMahmoudi/PerSHOP")
     parser.add_argument("--root", default=".")
     args = parser.parse_args()
     root = Path(args.root)
