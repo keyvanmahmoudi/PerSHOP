@@ -1,0 +1,24 @@
+PerSHOP dataset
+Copyright (c) 2023-2026 Keyvan Mahmoudi and Heshaam Faili, University of Tehran
+
+The PerSHOP dataset — the dialogues, their annotations and the product
+database (PerSHOP.xlsx, Products_DataBASE.xlsx, and the files under data/ and
+splits/) — is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License (CC BY-NC 4.0).
+
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by-nc/4.0/
+
+Attribution: cite
+  K. Mahmoudi and H. Faili, "PerSHOP: A Multi-Domain Persian Dataset for
+  Shopping Dialogue Systems," 2026 International Interdisciplinary Conference
+  on Artificial Intelligence: Engineering, Health, Finance and Humanities
+  (IICAI), Tehran, Iran, 2026, pp. 1-6, doi: 10.1109/IICAI70155.2026.11620935.
+
+Commercial use: any commercial use, including training, fine-tuning or
+deploying machine learning models for commercial products or services, is not
+permitted under this license and requires a separate written agreement with
+the authors.
+
+This license applies to every copy of the dataset, including copies
+redistributed by third parties.

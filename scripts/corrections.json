@@ -1,0 +1,25 @@
+{
+  "description": "Corrections applied to the original PerSHOP.xlsx by make_splits.py. Each markup fix only repairs the [span](slot) syntax so the annotation can be parsed; the annotated span and slot are kept as the annotator intended, except where noted.",
+  "markup_fixes": [
+    {"utterance_id": 327, "before": "[1000 میلی لیتری] [دلستر]", "after": "[1000 میلی لیتری](volume) [دلستر]", "reason": "slot label missing"},
+    {"utterance_id": 359, "before": "(volume)[200 میلی لیتر]", "after": "[200 میلی لیتر](volume)", "reason": "span and slot in reversed order"},
+    {"utterance_id": 1063, "before": "[400 گرمی] اگه", "after": "[400 گرمی](weight) اگه", "reason": "slot label missing"},
+    {"utterance_id": 3103, "before": "(volume)[1.5]", "after": "[1.5](volume)", "reason": "span and slot in reversed order"},
+    {"utterance_id": 5190, "before": "[۱.۵ لیتر]ی", "after": "[۱.۵ لیتر](volume)ی", "reason": "slot label missing"},
+    {"utterance_id": 7835, "before": "[کافی میکس](bag_number)[24] (product) عددی", "after": "[کافی میکس](product) [24](bag_number) عددی", "reason": "slot labels attached to the wrong spans (product and bag_number swapped)"},
+    {"utterance_id": 7879, "before": "[کاپوچینو](bag_number)[20] (product) عددی", "after": "[کاپوچینو](product) [20](bag_number) عددی", "reason": "slot labels attached to the wrong spans (product and bag_number swapped)"},
+    {"utterance_id": 10153, "before": "]زیتون](category)", "after": "[زیتون](category)", "reason": "wrong opening bracket"},
+    {"utterance_id": 11155, "before": "]مایع](category)", "after": "[مایع](category)", "reason": "wrong opening bracket"},
+    {"utterance_id": 13081, "before": "[120  گرم] (weight)", "after": "[120  گرم](weight)", "reason": "space between span and slot"},
+    {"utterance_id": 14845, "before": "(weight)[250]", "after": "[250](weight)", "reason": "span and slot in reversed order"},
+    {"utterance_id": 16581, "before": "]بدون لاکتوز](type)", "after": "[بدون لاکتوز](type)", "reason": "wrong opening bracket"},
+    {"utterance_id": 20202, "before": "وانیلی](type)", "after": "[وانیلی](type)", "reason": "opening bracket missing"}
+  ],
+  "removed_utterances": [
+    {"utterance_id": 12536, "reason": "empty user utterance"},
+    {"utterance_id": 13069, "reason": "empty user utterance"}
+  ],
+  "renamed_slots": {
+    "super-product": "super_product"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "splits": {
+    "train": {
+      "dialogues": 849,
+      "utterances": 17482,
+      "primary_domain_dialogues": {
+        "dairy": 258,
+        "beverages": 240,
+        "groceries": 103,
+        "home and lifestyle": 43,
+        "baby and child": 28,
+        "canned food": 27,
+        "cosmetics and personal care": 25,
+        "nuts, desserts and sweets": 24,
+        "fruits and vegetables": 23,
+        "protein": 20,
+        "digital": 19,
+        "fashion and clothing": 19,
+        "tissues and detergents": 17,
+        "car, motorcycle and bicycle": 2,
+        "chit-chat": 1
+      }
+    },
+    "validation": {
+      "dialogues": 106,
+      "utterances": 2242,
+      "primary_domain_dialogues": {
+        "dairy": 32,
+        "beverages": 30,
+        "groceries": 13,
+        "home and lifestyle": 6,
+        "canned food": 4,
+        "protein": 3,
+        "fruits and vegetables": 3,
+        "cosmetics and personal care": 3,
+        "baby and child": 3,
+        "nuts, desserts and sweets": 3,
+        "fashion and clothing": 2,
+        "digital": 2,
+        "tissues and detergents": 2
+      }
+    },
+    "test": {
+      "dialogues": 106,
+      "utterances": 2199,
+      "primary_domain_dialogues": {
+        "dairy": 32,
+        "beverages": 30,
+        "groceries": 13,
+        "home and lifestyle": 6,
+        "canned food": 4,
+        "nuts, desserts and sweets": 3,
+        "fruits and vegetables": 3,
+        "baby and child": 3,
+        "cosmetics and personal care": 3,
+        "protein": 3,
+        "digital": 2,
+        "tissues and detergents": 2,
+        "fashion and clothing": 2
+      }
+    }
+  },
+  "products": 750
+}
