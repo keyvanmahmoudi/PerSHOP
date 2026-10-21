@@ -1,0 +1,35 @@
+{"slot": "product", "description": "The general name of the product, such as milk."}
+{"slot": "category", "description": "The general category of the product such as mutton in the meat product."}
+{"slot": "type", "description": "The product type like honey type in cream product."}
+{"slot": "fat", "description": "Amount of the fat content of a food product such as milk or yogurt."}
+{"slot": "fresh", "description": "Freshness or shelf life of an edible product such as milk."}
+{"slot": "size", "description": "Descriptive size of a product, for example, large-size mineral water."}
+{"slot": "brand", "description": "The brand of a product."}
+{"slot": "sub-brand", "description": "Sub-brand of a famous brand. for example, Pompina is a sub-brand of the Kaleh brand."}
+{"slot": "volume", "description": "The volume of a product such as milk."}
+{"slot": "cheese-shape", "description": "Different shapes of cheeses."}
+{"slot": "weight", "description": "The weight of a product."}
+{"slot": "flavor", "description": "The taste of an edible product such as the taste of a juice."}
+{"slot": "carbonate", "description": "Carbonated or non-carbonated products such as soft drinks."}
+{"slot": "vegetables-of-buttermilk", "description": "Buttermilk with vegetables or without vegetables."}
+{"slot": "family-drink", "description": "Large size for beverage products such as soda or mineral water."}
+{"slot": "package", "description": "The type of packaging of a product such as bottled soda."}
+{"slot": "bag", "description": "The Brewable or urgency of products such as tea or coffee."}
+{"slot": "bag-number", "description": "Number of bags for products such as tea bags."}
+{"slot": "size-number", "description": "The numerical size of some products. Like a shoe in size 36."}
+{"slot": "color", "description": "Descriptive color of a product. For example, a blue T-shirt."}
+{"slot": "color-number", "description": "The numerical color of a product, for example, hair color."}
+{"slot": "country", "description": "Country of manufacture of a product."}
+{"slot": "percent", "description": "The percentage of something in a product, such as the percentage of meat in a hamburger."}
+{"slot": "height", "description": "The height of a product."}
+{"slot": "width", "description": "The width of a product."}
+{"slot": "length", "description": "The length of a product."}
+{"slot": "diag", "description": "The Diameter of a product of a product"}
+{"slot": "material", "description": "Material used in a product for example silk in clothing."}
+{"slot": "pack-number", "description": "The number in the packaging of products that are sold in bulk. For example, a pack involved 8 paper towels."}
+{"slot": "skin-type", "description": "Types of skin for which the product is suitable, such as face cream."}
+{"slot": "hair-type", "description": "Types of hair for which the product is suitable, such as shampoo."}
+{"slot": "gender", "description": "The gender of the person who consumes the product, such as women's shoes."}
+{"slot": "energy-rank", "description": "The energy consumption of an electrical product such as a refrigerator."}
+{"slot": "capacity", "description": "The capacity of a product. for example the capacity of a washing machine."}
+{"slot": "price", "description": "The price of a product."}
