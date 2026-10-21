@@ -125,8 +125,8 @@ Names and English descriptions of the product attribute slots.
 ```python
 from datasets import load_dataset
 
-dialogues = load_dataset("keyvanmahmoudi/PerSHOP", "dialogues")
-products = load_dataset("keyvanmahmoudi/PerSHOP", "products", split="database")
+dialogues = load_dataset("KeyvanMahmoudi/PerSHOP", "dialogues")
+products = load_dataset("KeyvanMahmoudi/PerSHOP", "products", split="database")
 ```
 
 ## Corrections
