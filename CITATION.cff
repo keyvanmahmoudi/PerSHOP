@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use PerSHOP, please cite the paper below."
+title: "PerSHOP: A Multi-Domain Persian Dataset for Shopping Dialogue Systems"
+type: dataset
+authors:
+  - family-names: Mahmoudi
+    given-names: Keyvan
+    affiliation: University of Tehran
+  - family-names: Faili
+    given-names: Heshaam
+    affiliation: University of Tehran
+repository-code: "https://github.com/keyvanmahmoudi/PerSHOP"
+url: "https://huggingface.co/datasets/KeyvanMahmoudi/PerSHOP"
+license:
+  - CC-BY-NC-4.0
+  - MIT
+keywords:
+  - Persian
+  - task-oriented dialogue
+  - dialogue dataset
+  - shopping
+  - natural language understanding
+preferred-citation:
+  type: conference-paper
+  title: "PerSHOP: A Multi-Domain Persian Dataset for Shopping Dialogue Systems"
+  authors:
+    - family-names: Mahmoudi
+      given-names: Keyvan
+    - family-names: Faili
+      given-names: Heshaam
+  collection-title: "2026 International Interdisciplinary Conference on Artificial Intelligence: Engineering, Health, Finance and Humanities (IICAI)"
+  conference:
+    name: "IICAI 2026"
+    city: Tehran
+    country: IR
+  year: 2026
+  start: 1
+  end: 6
+  doi: "10.1109/IICAI70155.2026.11620935"
+  publisher:
+    name: IEEE
